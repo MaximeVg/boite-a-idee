@@ -1,0 +1,21 @@
+<blockquote>
+  <table id="Idea">
+      <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Like/Dislike</th>
+        <th>Tags</th>
+        <th>Author</th>
+      </tr>
+      <ng-container *ngFor="let i of ideas">
+        <tr>
+            <td><app-print-title [data]="i"></app-print-title></td>
+            <td><app-print-description [data]="i"></app-print-description></td>
+            <td><app-like-dislike [data]="i"></app-like-dislike></td>
+            <td><app-print-tags [data]="i"></app-print-tags></td>
+            <td></td>
+        </tr>
+      </ng-container>
+  </table>
+
+  <button (click)="deleteIdeas()">Delete ideas</button>

@@ -1,0 +1,27 @@
+blockquote{
+  margin:100px;
+  padding:10px
+}
+
+#addIdea th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+h1{
+  color: green;
+  text-align: center;
+}
+
+h6,table{
+    text-align: center;
+}
+button{
+  display: block;
+  margin:auto;
+}
+
+li{
+  margin:left;
+}

@@ -1,0 +1,28 @@
+
+<blockquote>
+  <h1>Boite à idée</h1>
+  <table id="addIdea" style="margin:auto">
+    <tr>
+      <th><h6>Title</h6></th>
+      <th><h6>Description<br></h6></th>
+      <th><h6>Tags</h6></th>
+    </tr>
+    <tr>
+      <td><Input #box1 placeholder="Title..."></td>
+      <td><Input #box2 placeholder="Description..."></td>
+      <td><Input #box3 (keyup.enter)="onEnter($event)" placeholder="Tag(s)..."></td>
+    </tr>
+  </table>
+ 
+  <button (click)="onCreer(box1.value,box2.value)">Créer</button><br>
+    <ul>
+      <li *ngFor="let i of tags">
+        {{i}}
+      </li>
+    </ul>
+{{loginError}}
+</blockquote>
+
+
+
+

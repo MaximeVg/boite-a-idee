@@ -1,0 +1,21 @@
+blockquote{
+  margin:auto;
+  padding:10px;
+  text-align:center;
+}
+
+#searchResult{
+ 	width:500px;
+	margin:0 auto;/*centrage marges automatiques*/
+	padding:5px 0;
+	background:#bcbcbc;
+	text-align:left;
+}
+
+#searchResult li{
+display:inline;
+}
+
+span{
+  text-shadow: #000 0px 0px 1px;
+}

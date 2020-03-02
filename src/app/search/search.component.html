@@ -1,0 +1,18 @@
+<blockquote>
+  <h6>Search by <select [(ngModel)]="selectedOption">
+   <option *ngFor="let o of options">
+      {{o.name}}
+   </option>
+</select></h6>
+  <input #box (keyup.enter)="onEnter(box.value)" placeholder="Click [enter] to search"><br>
+  <ul>
+    <li *ngFor="let i of result" id="searchResult">
+      <span>Titre : </span>{{i.titre}}<br/>
+      <span>Description : </span>{{i.description}}<br/>
+      <span>Tags : </span>{{i.tags}}<br/>
+      <span>Like : </span>{{i.nbLike}}<br/>
+      <span>Dislike : </span>{{i.nbDislike}}<br/>
+    </li>
+  </ul>
+  {{failMsg}}
+</blockquote>
