@@ -14,7 +14,7 @@
     "@types/jquery": "^3.3.32",
     "bootstrap": "4.4.1",
     "core-js": "2.6.9",
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "popper.js": "1.16.1",
     "rxjs": "6.5.2",
     "zone.js": "0.9.1"
